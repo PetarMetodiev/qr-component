@@ -30,3 +30,23 @@ body {
 
   background-color: var(--clr-background-secondary);
 }
+
+/* Make images easier to work with */
+img {
+  display: block;
+  max-width: 100%;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font-size: inherit;
+  font-family: inherit;
+  color: inherit;
+}
+
+#root {
+  width: 100%;
+}
